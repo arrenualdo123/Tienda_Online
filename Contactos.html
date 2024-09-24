@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="stylesheet" href="/css/Contactos.css">
+    <link rel="stylesheet" href="/css/General.css">
+    <link rel="icon" href="./assets/Logo.jpg" type="image/jpg">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./assets/Logo.jpg" alt="logotipo de la tienda">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Principal.html">Inicio</a></li>
+                <li><a href="Equipo.html">Nuestro Equipo</a></li>
+                <li><a href="Contactos.html">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="form-content">
+        <h2>Enviar su formulario</h2>
+        <form action="https://formsubmit.co/your@email.com" method="POST">
+            <label for="name">Nombre</label>
+            <input type="text" name="name" id="name">
+
+            <label for="email">Correo Electronico</label>
+            <input type="email" name="email" id="email">
+
+            <label for="subject">Asunto</label>
+            <input type="text" name="subject" id="subject">
+
+            <label for="coments">Comentarios</label>
+            <textarea name="coments" id="coments" cols="30" rows="5"></textarea>
+
+            <input class="btn" type="submit" value="enviar">
+
+           
+        </form>
+    </div>
+</body>
+</html>
+
